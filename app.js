@@ -29,7 +29,7 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 mongoose.Promise =global.Promise
-    mongoose.connect(config.DB,{useNewUrlParser: true}).then(
+    mongoose.connect(process.env.MONGODB_URI,{useNewUrlParser: true}).then(
     () => {console.log('Databse is connected')},
     () => {console.log('Connection not connected')}
     )
