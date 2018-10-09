@@ -9,7 +9,7 @@ Deploying Heroku ---------------------------------------
 6. git push heroku master
 7. heroku ps:scale web=1
 8. heroku open 
-
+`
 Make changes to existing heroku code --------------------------
 
 1. clone the git 
@@ -25,3 +25,13 @@ mlab username : rahulgupta.imt12@gmail.com
 mlab password : testrahul@321
 heroku username : rahulgupta.imt12@gmail.com
 heroku password : testrahul@321
+
+info@risingtechinc.in.net 
+PRN(lyR5
+
+rahulgupta@risingtechinc.in.net
+BY(iAIT6
+
+Pillio-
+info@risingtechinc.in.net
+testrahul@321

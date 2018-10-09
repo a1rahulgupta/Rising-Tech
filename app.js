@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var mongoose = require ('mongoose');
 var config = require('./Config/DB');
-
+var nodemailer = require('nodemailer');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
